@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=MedievalSharp" />
+    <link rel="icon" type="image/png" href="./Imagens/Sprite-0001.png">
     <title>Fichario</title>
 </head>
 
@@ -15,7 +16,7 @@
         <div class="div1">
             <h1>Procurado </h1>
             <div class="caracteristicas">
-                <fieldset>
+                <fieldset class="princ">
                     <p>Nome</p>
                     <input type="text" placeholder="Como se chama guerreiro?">
                     <p>Idade</p>
@@ -58,7 +59,18 @@
 
                     <p>Equipamentos</p>
                     <br>
-                    <textarea id="mensagem" name="mensagem" rows="12" cols="50" placeholder="Oque carrega nesta Mochila guerreiro?"></textarea>
+                    <textarea id="mensagem" name="mensagem" rows="12" cols="50"
+                        placeholder="Oque carrega nesta Mochila guerreiro?"></textarea>
+                    <fieldset class="atrib">
+                        <legend>ATRIBUTOS</legend>
+                        <p>Força</p><input type="number">
+                        <p>Destreza</p><input type="number">
+                        <p>Constituição</p><input type="number">
+                        <p>Inteligência</p><input type="number">
+                        <p>Sabedoria</p><input type="number">
+                        <p>Carisma</p><input type="number">
+                    </fieldset>
+                </fieldset>
 
 
             </div>

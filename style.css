@@ -49,8 +49,10 @@ h1 {
     font-weight: 700;
     line-height: 26.4px;
     text-align: center;
-    color: #e6a36c;
-
+    color: #f1c38e;
+    text-shadow: 0 0 10px #e6a36c,
+        0 0 20px #e6a36c,
+        0 0 40px #e6a36c
 }
 
 h3 {
@@ -82,7 +84,7 @@ p {
 
 fieldset {
     color: #e6a36c;
-    margin-right: 25px;
+    margin-right: 30px;
     padding: 24px;
     border-radius: 25px;
 }
@@ -90,24 +92,28 @@ fieldset {
 select {
     padding: 6px;
     margin-right: 24px;
-    font-family:  MedievalSharp;
+    font-family: MedievalSharp;
     border-radius: 25px;
     border: none;
     background-color: #f0b382;
+    cursor: url("Imagens/Sprite-0001.png"), auto;
 }
 
 input[type="number"] {
     height: 25px;
     width: 45px;
-    font-family:  MedievalSharp;;
+    font-family: MedievalSharp;
+    ;
     border-radius: 25px;
     border: none;
+    cursor: url("Imagens/Sprite-0001.png"), auto;
 }
 
 input[type="text"] {
     height: 25px;
     width: 370px;
-    font-family:  MedievalSharp;;
+    font-family: MedievalSharp;
+    ;
 }
 
 .NumberLine {
@@ -123,6 +129,7 @@ input {
     border: none;
     font-size: 18px;
     background-color: #f0b382;
+    cursor: url("Imagens/Sprite-0001.png"), auto;
 }
 
 img {
@@ -134,22 +141,41 @@ button {
     display: block;
     text-align: center;
     margin: 0 auto;
-    background-color: #5c0000;
+    background-color: #490000;
     border-radius: 25px;
     padding: 24px;
-    
     font-family: MedievalSharp;
     color: #e6a36c;
     font-size: 25px;
     margin-top: 90px;
-    border-color: #5c0000;
+    border: none;
+    cursor: url("Imagens/Sprite-0001.png"), auto;
+
+
 }
-textarea{
+
+textarea {
     margin-top: 24px;
-    font-family:  MedievalSharp;
+    font-family: MedievalSharp;
     border-radius: 25px;
     padding: 10px;
     border: none;
     background-color: #f0b382;
-    
+    height: 170px;
+    width: 670px;
+    margin-bottom: 20px;
+    cursor: url("Imagens/Sprite-0001.png"), auto;
+
+}
+
+.atrib {
+    width: 640px;
+    margin-right: 10px;
+}
+
+.princ {
+    padding: 20px;
+}
+body{
+    cursor: url("Imagens/Sprite-0001.png"), auto;
 }
