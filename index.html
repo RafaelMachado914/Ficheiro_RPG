@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=MedievalSharp" />
+    <title>Fichario</title>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="div1">
+            <h1>Procurado </h1>
+            <div class="caracteristicas">
+                <fieldset>
+                    <p>Nome</p>
+                    <input type="text" placeholder="Como se chama guerreiro?">
+                    <p>Idade</p>
+                    <input type="number">
+                    <br>
+                    <p>Classe</p>
+                    <select name="SeletorClasse" id="OdeioBrado">
+                        <option value="Valor1">Bárbaro</option>
+                        <option value="Valor2">Bardo</option>
+                        <option value="Valor3">Bruxo</option>
+                        <option value="Valor4">Clérigo</option>
+                        <option value="Valor5">Druida</option>
+                        <option value="Valor6">Feiticeiro</option>
+                        <option value="Valor7">Guerreiro</option>
+                        <option value="Valor8">Ladino</option>
+                        <option value="Valor9">Mago</option>
+                        <option value="Valor10">Monge</option>
+                        <option value="Valor11">Paladino</option>
+                        <option value="Valor12">Patrulheiro</option>
+                    </select>
+
+                    <p>Alinhamento</p>
+                    <select name="SeletorAlinhamento">
+                        <option value="Valor1">O Heroi - Leal e Bom</option>
+                        <option value="Valor2">O Benfeitor - Neutro e Bom</option>
+                        <option value="Valor3">O rebelde - Caótico e bom</option>
+                        <option value="Valor4">O juiz - Neutro e Bom</option>
+                        <option value="Valor5">O Equilibrado - Neutro Verdadeiro</option>
+                        <option value="Valor6">O Espirito Livre - Caótico Neutro</option>
+                        <option value="Valor7">O Dominador - Leal e Mau</option>
+                        <option value="Valor8">O Egoista - Neutro e Mau</option>
+                        <option value="Valor9">O Destruidor - Caótico e Mau</option>
+                    </select>
+                    <br>
+                    <P class="NumberLine">HP </P> <input class="NumberLine" type="number">
+                    <p class="NumberLine">MP </p><input class="NumberLine" type="number">
+                    <p class="NumberLine">MP </p><input class="NumberLine" type="number">
+
+                    <br>
+
+                    <p>Equipamentos</p>
+                    <br>
+                    <textarea id="mensagem" name="mensagem" rows="12" cols="50" placeholder="Oque carrega nesta Mochila guerreiro?"></textarea>
+
+
+            </div>
+        </div>
+        <div class="div2">
+            <h1>Teste sua sorte</h1>
+            <img id="Rolagem" src="./Imagens/00.png" alt="">
+        </div>
+        <div class="div3">
+            <button onclick="sortearImagem()">Role o Dado</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
