@@ -8,7 +8,7 @@ function sortearImagem() {
         img.src = "imagens/1.png"
     }
     if (numeroSorteado === 2) {
-        img.src = "imagens/2.png"
+        img.src = "imagens./2.png"
     }
     if (numeroSorteado === 3) {
         img.src = "imagens/3.png"
