@@ -5,15 +5,13 @@ function sortearImagem() {
     let img = document.getElementById("Rolagem");
 
     if (numeroSorteado === 1) {
-        img.src = "./Imagens/1.png"
-        
-        
+        img.src = "Imagens/1.png"
     }
     if (numeroSorteado === 2) {
-        img.src = "./Imagens./2.png"
+        img.src = "Imagens./2.png"
     }
     if (numeroSorteado === 3) {
-        img.src = "./Imagens/3.png"
+        img.src = "Imagens/3.png"
     }
     if (numeroSorteado === 4) {
         img.src = "Imagens/4.png"
