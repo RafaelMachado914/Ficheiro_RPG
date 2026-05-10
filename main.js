@@ -5,63 +5,63 @@ function sortearImagem() {
     let img = document.getElementById("Rolagem");
 
     if (numeroSorteado === 1) {
-        img.src = "imagens/1.png"
+        img.src = "Imagens/1.png"
     }
     if (numeroSorteado === 2) {
-        img.src = "imagens./2.png"
+        img.src = "Imagens./2.png"
     }
     if (numeroSorteado === 3) {
-        img.src = "imagens/3.png"
+        img.src = "Imagens/3.png"
     }
     if (numeroSorteado === 4) {
-        img.src = "imagens/4.png"
+        img.src = "Imagens/4.png"
     }
     if (numeroSorteado === 5) {
-        img.src = "imagens/5.png"
+        img.src = "Imagens/5.png"
     }
     if (numeroSorteado === 6) {
-        img.src = "imagens/6.png"
+        img.src = "Imagens/6.png"
     }
     if (numeroSorteado === 7) {
-        img.src = "imagens/7.png"
+        img.src = "Imagens/7.png"
     }
     if (numeroSorteado === 8) {
-        img.src = "imagens/8.png"
+        img.src = "Imagens/8.png"
     }
     if (numeroSorteado === 9) {
-        img.src = "imagens/9.png"
+        img.src = "Imagens/9.png"
     }
     if (numeroSorteado === 10) {
-        img.src = "imagens/10.png"
+        img.src = "Imagens/10.png"
     }
     if (numeroSorteado === 11) {
-        img.src = "imagens/11.png"
+        img.src = "Imagens/11.png"
     }
     if (numeroSorteado === 12) {
-        img.src = "imagens/12.png"
+        img.src = "Imagens/12.png"
     }
     if (numeroSorteado === 13) {
-        img.src = "imagens/13.png"
+        img.src = "Imagens/13.png"
     }
     if (numeroSorteado === 14) {
-        img.src = "imagens/14.png"
+        img.src = "Imagens/14.png"
     }
     if (numeroSorteado === 15) {
-        img.src = "imagens/15.png"
+        img.src = "Imagens/15.png"
     }
     if (numeroSorteado === 16) {
-        img.src = "imagens/16.png"
+        img.src = "Imagens/16.png"
     }
     if (numeroSorteado === 17) {
-        img.src = "imagens/17.png"
+        img.src = "Imagens/17.png"
     }
     if (numeroSorteado === 18) {
-        img.src = "imagens/18.png"
+        img.src = "Imagens/18.png"
     }
     if (numeroSorteado === 19) {
-        img.src = "imagens/19.png"
+        img.src = "Imagens/19.png"
     }
     if (numeroSorteado === 20) {
-        img.src = "imagens/20.png"
+        img.src = "Imagens/20.png"
     }
 }
